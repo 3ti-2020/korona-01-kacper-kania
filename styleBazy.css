@@ -9,10 +9,11 @@ header{
     height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 30% 20% 50%;
     grid-template-areas: 
     "a"
-    "b";
+    "b"
+    "c";
 }
 .a{
     grid-area: a;
@@ -27,7 +28,16 @@ header{
     justify-content: center;
     
 }
+.c{
+    grid-area: c;
+    display: flex;
+    justify-content: center;
+}
 h1{
     color: white;
     font-size: 40px;
+}
+img{
+    height: 300px;
+    width: 300px;
 }
